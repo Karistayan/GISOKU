@@ -1,15 +1,5 @@
 <!DOCTYPE html>
-<?php
-$navigator_user_agent = (isset($_SERVER['HTTP_USER_AGENT'])) ? strtolower($_SERVER['HTTP_USER_AGENT']):'';
-if(
-stristr($navigator_user_agent, "iphone")or
-stristr($navigator_user_agent, "ipad")or
-stristr($navigator_user_agent, "kindle")
-) 
-{
-header("Location: mobile/index.html");
-}
-?>
+
 <html>
 <head>
  
@@ -211,7 +201,7 @@ body, html {
   </div>
 </div>
 
-<link href="mailto:csuarezhernandez60@gmail.com">pene
+
 <!-- Work Section -->
 <div class="w3-container" style="padding:128px 16px" id="work">
   <h3 class="w3-center">NUESTRO TRABAJO</h3>
