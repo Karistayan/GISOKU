@@ -28,7 +28,8 @@ header("Location: mobile/index.html");
 
 <style type="text/css">
 @media handheld {
-body {width:98%;font-family:Verdana; font-size:16px;} }
+body,h2,h3,h4,h5,h6 {width:98%;font-family:"EB Garamoond";} }
+h1{width:98%;font-family:"Barlow Condense";}
 img{max-width:100%;}
 </style>
 
@@ -66,10 +67,7 @@ img{max-width:100%;}
   if (preg=="3a")
   window.open("https://twitter.com/Gisoku7");
   }
-  function Correo(preg){  
-  if (preg=="4a")
-  window.open("mailto:juan_fuquene_0904@leonardoposadapedraza.org");
-  }
+
   
   </script>
 
@@ -122,12 +120,12 @@ body, html {
 
 <!-- Sidebar on small screens when clicking the menu icon -->
 <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ACERCA</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">EQUIPO</a>
-  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">TRABAJO</a>
-  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">ELEMENTOS</a>
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACTO</a>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close <i class="fa-solid fa-xmark"></i></a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa-solid fa-list"></i> ACERCA</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> EQUIPO</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa-solid fa-gears"></i> TRABAJO</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> ELEMENTOS</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACTO</a>
 </nav>
 
 <!-- Header with full-height image -->
@@ -135,14 +133,14 @@ body, html {
 
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-left w3-text-white" style="padding:48px">
-   <h2> <span class="w3-jumbo w3-hide-small">Gisoku te ofrece</span><br></h2>
+   <h2> <span class="w3-jumbo ">Gisoku te ofrece</span><br></h2>
     <span class="w3-xxlarge w3-text-aqua ">Comodidad y Seguridad </span><br>
    <h2 ><span class="w3-xlarge">Inovacion y Adaptacion</span></h2>
     <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">conose mas de nosotros</a></p>
   </div> 
   
   <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-    <div class="w3-right w3-hide-small">
+    <div class="w3-right ">
     <a id="1a"><imput name="p1" onclick="paginafacebook('1a')" class="fa fa-facebook-official  w3-hover-opacity"></a>
     <a id="1a"><imput name="p1" onclick="paginainstagram('2a')" class="fa fa-instagram w3-hover-opacity"></a>
     <a id="1a"><imput name="p1" onclick="paginatwitter('3a')" class="fa fa-twitter w3-hover-opacity"></a>
@@ -191,7 +189,7 @@ body, html {
           <font size="6"> <a  class ="w3-text-green" ><i class="fa-regular fa-chess-king"></i> Fuquene Juan </a></font>
           <font size=" 4"><p class="w3-opacity w3-text-white">Lider</p></font>
           <font size="6"><p class="w3-text-aqua">Lider del equipo de desarrollo de la protesis y almacenador de materiales y partes</p></font>
-          <p><a button class="w3-button w3-rojopipideperro2 w3-block" id="1a"><imput name="p1" onclick="Correo('4a')"><i class="fa fa-envelope"></i> Contacto</button></p></a>
+          <p><a button class="w3-button w3-rojopipideperro2 w3-block" href="mailto:juan_fuquene_0904@leonardoposadapedraza.org?"><i class="fa fa-envelope"></i> Contacto</button></p></a>
         </div>
       </div>
     </div>
