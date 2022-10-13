@@ -1,18 +1,14 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 
 body{
-    background-position: center;
-  background-size: cover;
- 
-  min-height: 100%;
-
+    height: 900px;
     background: url(60051efa920dec071d930d1bb6a1ca37--rurouni-kenshin-black-wallpaper.jpg) ;
-    
+    background-size: cover;
+    background-size: 90rem;
     background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
-}    
-
+}
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 /* Extract from normalize.css by Nicolas Gallagher and Jonathan Neal git.io/normalize */
