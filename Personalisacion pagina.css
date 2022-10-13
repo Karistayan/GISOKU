@@ -1,8 +1,5 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
-@media screen and (min-width:300px) and (max-width:800px) {
-    body{font-size:0.8em;}
-    sidebar{display:none;}
-    }
+
     
 
 body{
