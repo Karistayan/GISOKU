@@ -8,6 +8,7 @@ body{
     background-repeat: no-repeat;
 background-position: center center;
 background-attachment: fixed;
+    min-height:100%;
 }
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
