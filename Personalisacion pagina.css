@@ -1,7 +1,7 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 
 body{
-    background-image:#000000 url("60051efa920dec071d930d1bb6a1ca37--rurouni-kenshin-black-wallpaper.jpg") center center cover no-repeat fixed ;
+    background:#000000 url("60051efa920dec071d930d1bb6a1ca37--rurouni-kenshin-black-wallpaper.jpg") center center cover no-repeat fixed ;
     
 }
 @media only screen and (max-width: 767px) { 
