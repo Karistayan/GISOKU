@@ -4,7 +4,7 @@ body{
     background-image:#000000 url("60051efa920dec071d930d1bb6a1ca37--rurouni-kenshin-black-wallpaper.jpg") center center cover no-repeat fixed ;
     
 }
-@media only screen and (max-width: 767px) { background-image: url(IMAGEN1.jpg);
+@media only screen and (max-width: 767px) { background-image: url("IMAGEN1.jpg");
 
 }
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
