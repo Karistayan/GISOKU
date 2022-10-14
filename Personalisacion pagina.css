@@ -1,12 +1,20 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 
 body{
-    background:#000000 url("60051efa920dec071d930d1bb6a1ca37--rurouni-kenshin-black-wallpaper.jpg") center center cover no-repeat fixed ;
-    
+    background:#000000 url("60051efa920dec071d930d1bb6a1ca37--rurouni-kenshin-black-wallpaper.jpg")  ;
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
 }
 @media only screen and (max-width: 767px) { 
     body{
     background-image: url("IMAGEN1.jpg");
+        background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
     }
 }
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
